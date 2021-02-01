@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import datetime
 import calendar
 
@@ -9,10 +7,10 @@ def findDay(date):
     return (calendar.day_name[born])
 
 
-lines = {"Monday": " and Monday’s child is fair of face.",
-         "Tuesday": " and Tuesday’s child is full of grace.",
+lines = {"Monday": "and Monday's child is fair of face.",
+         "Tuesday": "and Tuesday's child is full of grace.",
          "Wednesday": "and Wednesday's child is full of woe.",
-         "Thursday": "and Thursdays child has far to go.",
+         "Thursday": "and Thursday's child has far to go.",
          "Friday": "and Friday's child is loving and giving.",
          "Saturday": "and Saturdays child works hard for a living.",
          "Sunday": "and Sunday's child is fair and wise and good in every way."
@@ -20,6 +18,21 @@ lines = {"Monday": " and Monday’s child is fair of face.",
          }
 
 
-date = '26 10 2009'
-print("You were born on a " + findDay(date)) 
-print(lines[findDay(date)]) 
+date = input()
+day = findDay(date)
+print("You were born on a " + day + " " + lines[day])
+
+
+
+date = input()
+day = findDay(date)
+print("You were born on a " + day + " " + lines[day])
+
+
+
+
+date = input()
+day = findDay(date)
+print("You were born on a " + day + " " + lines[day])
+
+
