@@ -20,7 +20,7 @@ lines = {"Monday": "and Monday's child is fair of face.",
          }
 
 
-date = input()
+date = '18 6 2003'
 day = findDay(date)
 print("You were born on a " + day + " " + lines[day])
 
