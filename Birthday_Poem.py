@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import datetime
 import calendar
 
@@ -18,10 +20,19 @@ lines = {"Monday": "and Monday's child is fair of face.",
          }
 
 
-date = input()
+date = '1 3 1990'
 day = findDay(date)
 print("You were born on a " + day + " " + lines[day])
 
+
+date = '12 10 1992'
+day = findDay(date)
+print("You were born on a " + day + " " + lines[day])
+
+
+date = '9 5 1995'
+day = findDay(date)
+print("You were born on a " + day + " " + lines[day])
 
 
 
