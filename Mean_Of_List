@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+def mean(lst):
+	return sum(lst) / len(lst)
+
+lst = [4,8,1,16,20] #Change this to whatever you want
+mean = mean(lst)
+print("The mean of the list is =", round(mean, 2))
